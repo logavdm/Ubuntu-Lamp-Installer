@@ -12,4 +12,8 @@ If You Want to Install Manually please use above guide.
 
 <h2>MYSQL User AND DB Creator</h2>
 
-Filename <dbname> <username> <password>
+Sudo su Filename.sh dbname username password
+
+That will create the database if not exist and create the user with entered password with full previledge with entered database
+
+when script run that will ask for the mysql root password
