@@ -9,3 +9,7 @@ IF You want another os version you will customize and use
 This Script Based on <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04"> This </a>Installation Guide 
 
 If You Want to Install Manually please use above guide.
+
+<h2>MYSQL User AND DB Creator</h2>
+
+Filename <dbname> <username> <password>
