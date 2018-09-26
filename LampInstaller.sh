@@ -18,7 +18,7 @@ installation=1;
 
 #Apache, Php, MySQL and required packages installation
 
-if [ "`lsb_release -ds`" = "Ubuntu 16.04.2 LTS" ]
+if [ "`lsb_release -ds`" = "Ubuntu 16.04.5 LTS" ]
 then
 
 echo "\n\n ********************************  INSTALLATION STARTED *************************************";
