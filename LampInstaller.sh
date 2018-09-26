@@ -44,7 +44,13 @@ fi
 echo "\n\n#############################################################################################\n";
 echo "#             Installing PHP with libapache2,mcrypt,mysql extensions                            #";
 echo "\n###############################################################################################\n";
-sudo apt-get -y install php libapache2-mod-php php-mcrypt php-mysql 
+#sudo apt-get -y install php libapache2-mod-php php-mcrypt php-mysql 
+
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:ondrej/php
+
+sudo apt update
+sudo apt install php7.2 libapache2-mod-php7.2
 
 if [ $? -eq 0 ]; then
 
